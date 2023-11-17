@@ -1,0 +1,71 @@
+/*button and search icon styles*/
+
+.mg-icon {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+	background-color: #36383f;
+	border: none;
+	border-radius: 3px;
+	color: #fefefe;
+	font-weight: 700;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.grey-button > button > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.grey-button > button:hover {
+    background-color: #5a5f73;
+}
+
+.green-button > button:hover {
+    background-color: #248c46;
+}
+
+.black-button > button:hover {
+    background-color: #36383f;
+}
+
+/*Description text buttons*/
+.button-down-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.green-button > button {
+    background-color: #47cf73;
+	border: none;
+	border-radius: 4px;
+	color: black;
+	font-size: 1em;
+	font-weight: 700;
+	padding: 25px;
+
+}
+
+.black-button > button {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+    padding: 25px;
+}

@@ -1,0 +1,53 @@
+/*Navigation bar styles*/
+
+.navigation-bar {
+
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    }
+    
+    .navigation-bar > .logo-links > .logo img {
+        width: 100px;
+        margin: 20px;
+        
+    }
+    
+    /*explore styles*/
+    
+    .link-wrapper > .explore {
+        display: flex;
+        justify-content: flex-start;
+        color: #f4e187;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin: 5px;
+    }
+    
+    /* Link group styles */
+    
+    .link-group {
+    
+        font-family: 'Heebo', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        
+        
+    }
+    
+    .link-group > .link a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* spark styles */
+
+.spark a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
